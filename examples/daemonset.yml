@@ -23,7 +23,7 @@ spec:
       - key: CriticalAddonsOnly
         operator: Exists
       hostNetwork: true
-      priorityClassName: system-cluster-critical
+      priorityClassName: system-node-critical
       containers:
       - image: fake-device-plugin:0.0.2
         name: fake-device-plugin
